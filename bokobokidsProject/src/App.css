@@ -1,0 +1,47 @@
+
+.navBar{
+    z-index: 1;
+}
+
+.heroSection{
+    width: 100%;
+    background-image: url(./assets/Hero-img.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cardHolder2{
+    width: 95%;
+}
+.imgContainer{
+    z-index: 0.1;
+    transition: ease-in-out .3s;
+}
+.imgContainer:hover{
+    transform: scale(.9);
+}
+
+@media (max-width: 768px) {
+
+    .heroSection{
+        background-image: url(./assets/Hero-img.png) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .cardHolder1{
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+        width: 100%;
+    }
+    .card{
+        width: 90%;
+    }
+    .cardHolder2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+        width: 100%;
+    }
+}
