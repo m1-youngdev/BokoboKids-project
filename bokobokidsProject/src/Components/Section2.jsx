@@ -15,8 +15,8 @@ function Section2() {
 
         <div className="cardHolder2 flex justify-between align-middle p-[20px]">
             {/* Cards */}
-          <div className="card w-[300px] rounded-xl bg-[#A0522D80] px-[20px] py-[30px] shadow-lg">
-            <div className="w-[50px] h-[50px] bg-[#ffffff33] rounded-lg my-[20px]"></div>
+          <div className="card2 w-[300px] rounded-xl bg-[#A0522D80] px-[20px] py-[30px] shadow-lg">
+            <div className="spin w-[50px] h-[50px] bg-[#ffffff33] rounded-lg my-[20px]"></div>
             <h2 className="font-bold text-2xl my-[20px]">
               Sacred Masks & Sculptures
             </h2>
@@ -26,8 +26,8 @@ function Section2() {
             </p>
           </div>
 
-          <div className="card w-[300px] rounded-xl bg-[#FFB6C180] px-[20px] py-[30px] shadow-lg">
-            <div className="w-[50px] h-[50px] bg-[#ffffff33] rounded-lg my-[20px]"></div>
+          <div className="card2 w-[300px] rounded-xl bg-[#FFB6C180] px-[20px] py-[30px] shadow-lg">
+            <div className="spin w-[50px] h-[50px] bg-[#ffffff33] rounded-lg my-[20px]"></div>
             <h2 className="font-bold text-2xl my-[20px]">
               Traditional Pottery & Crafts
             </h2>
@@ -37,8 +37,8 @@ function Section2() {
             </p>
           </div>
 
-          <div className="card w-[300px] rounded-xl bg-blue-500 px-[20px] py-[30px] shadow-lg">
-            <div className="w-[50px] h-[50px] bg-[#ffffff33] rounded-lg my-[20px]"></div>
+          <div className="card2 w-[300px] rounded-xl bg-blue-500 px-[20px] py-[30px] shadow-lg">
+            <div className="spin w-[50px] h-[50px] bg-[#ffffff33] rounded-lg my-[20px]"></div>
             <h2 className="font-bold text-2xl my-[20px]">
               Musical Instruments
             </h2>
@@ -48,8 +48,8 @@ function Section2() {
             </p>
           </div>
 
-          <div className="card w-[300px] rounded-xl bg-[#00008080] px-[20px] py-[30px] shadow-lg">
-            <div className="w-[50px] h-[50px] bg-[#ffffff33] rounded-lg my-[20px]"></div>
+          <div className="card2 w-[300px] rounded-xl bg-[#00008080] px-[20px] py-[30px] shadow-lg">
+            <div className="spin w-[50px] h-[50px] bg-[#ffffff33] rounded-lg my-[20px]"></div>
             <h2 className="font-bold text-2xl my-[20px]">African Patterns</h2>
             <p>
               Understand the symbolic meanings and mathematical beauty of

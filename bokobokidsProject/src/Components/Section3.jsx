@@ -3,16 +3,24 @@ import bookImg from "../assets/winds-of-napata-img.jpg";
 
 function Section3() {
   return (
-    <div>
+    <>
       <section className="section3 flex flex-col items-center-safe justify-between">
         <h2 className="text-[40px] font-bold text-[#2E251F]">Featured Story</h2>
-        <div className="w-screen flex justify-center gap-[50px]">
-          <div className="imgContainer w-5/12 border-4 border-[#FFFFFF] shadow-gray-500 shadow-xl rounded-[15px]">
-            <img src= {bookImg} alt="Winds Of Napata " className="winds-of-napata width-4/4 rounded-[15px] "/>
+        <div className="section3-container w-screen flex justify-center gap-[50px] items-center-safe align-middle">
+          <div className="imgContainer w-4/12 h-4/12 border-4 border-[#FFFFFF] shadow-gray-500 shadow-xl rounded-[15px]">
+            <img
+              src={bookImg}
+              alt="Winds Of Napata "
+              className="winds-of-napata w-4/4 rounded-[15px]"
+            />
           </div>
-          <div className="w-5/12">
-            <h2 className="TWoN text-[35px] font-bold text-[#2E251F]">The winds of Napata</h2>
-            <p className="text-[20px] font-semibold mb-[30px]">by Dr. Kheftusa Akhiba Ankh</p>
+          <div className="text-container w-5/12">
+            <h2 className="TWoN text-[35px] font-bold text-[#2E251F]">
+              The winds of Napata
+            </h2>
+            <p className="text-[20px] font-semibold mb-[30px]">
+              by Dr. Kheftusa Akhiba Ankh
+            </p>
             <p className="text-[18px] mb-[15px]">
               Journey through ancient Nubian kingdoms where children discover
               the power of their heritage and identity. This captivating tale
@@ -33,8 +41,12 @@ function Section3() {
               <li>Educational Value</li>
             </ul>
             <div className="btns">
-              <button className="bg-[#ECAF5B] w-[150px] h-[40px] rounded-[10px] mr-[30px] my-[30px]">Buy the Book</button>
-              <button className="border-2 border-[#ECAF5B] w-[150px] h-[40px] rounded-[10px] mr-[15px] my-[30px]">Read Preview</button>
+              <button className="bg-[#ECAF5B] w-[150px] h-[40px] rounded-[10px] mr-[30px] my-[30px]">
+                Buy the Book
+              </button>
+              <button className="border-2 border-[#ECAF5B] w-[150px] h-[40px] rounded-[10px] mr-[15px] my-[30px]">
+                Read Preview
+              </button>
             </div>
             <div className="bg-[#FAF8F0] w-4/4 p-[30px] rounded-[12px] mb-[30px] border border-gray-200">
               <p className="text-[18px] italic mb-[10px]">
@@ -42,12 +54,14 @@ function Section3() {
                 they read, to understand their heritage, and to dream of their
                 limitless potential."
               </p>
-              <p className="text-[18px] italic text-[#756357] font-semibold">— Dr. Kheftusa Akhiba Ankh</p>
+              <p className="text-[18px] italic text-[#756357] font-semibold">
+                — Dr. Kheftusa Akhiba Ankh
+              </p>
             </div>
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 }
 
