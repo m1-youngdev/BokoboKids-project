@@ -92,6 +92,9 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
+    .links{
+        display: none;
+    }
     .cardHolder1{
         flex-direction: column;
         align-items: center;

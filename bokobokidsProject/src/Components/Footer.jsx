@@ -78,9 +78,10 @@ function Footer() {
           </div>
         </div>
 
-        <div className="footer-end mt-[40px] flex justify-between p-[25px]">
+        <div className="footer-end mt-[20px] flex flex-col justify-between items-center p-[25px]">
             <div>
-              <p className="flex text-[16px] text-[#2E251FAA]"> &copy; 2024. All rights reserved. With <span className="m-[5px]"><FaHeart className="text-[18px] text-red-600"/></span> from Bokobokids Village.</p>
+               <p className="flex text-[16px] text-[#2E251FAA] justify-center items-center">With <FaHeart className="text-red-600 mr-1 ml-1 animate-pulse transition ease-in-out"/> from Bokobo Village </p>
+             <p className="flex text-[16px] text-[#2E251FAA]">&copy; 2024 All rights Reserved</p>
             </div>
             <div className=" footer-end-links flex gap-[15px]">
               <a href="#" className="text-[16px] text-[#2E251FAA]">Contact Us</a>

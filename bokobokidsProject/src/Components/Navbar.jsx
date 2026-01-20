@@ -1,5 +1,6 @@
-import React from 'react'
-import Logo from "../assets/bokoboLogo.png"
+import React from 'react';
+import Logo from "../assets/bokoboLogo.png";
+import { FiMenu } from "react-icons/fi";
 
 
 function Navbar() {
@@ -18,6 +19,7 @@ function Navbar() {
                 <a href='#' className='link text-[15px] font-semibold'>CONTACTS</a>
                 <button className='btn w-[100px] h-[40px] text-[15px] font-semibold bg-gradient-to-br from-blue-300 to-pink-300 rounded-lg'>Sign Up</button>
             </div>
+            <div> <FiMenu className='text-[20px]'/></div>
         </nav>
     </>
   )
