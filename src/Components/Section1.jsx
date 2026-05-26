@@ -15,8 +15,8 @@ function Section1() {
           children for a bright future.
         </p>
       </div>
-      <div className="w-screen flex flex-col justify-items-center items-center-safe ">
-        <div className="join-the-movement rounded-2xl shadow-xl mb-[20px] items-center-safe justify-items-center p-[30px] w-10/12">
+      <div className="w-screen flex flex-col justify-center items-center ">
+        <div className="join-the-movement rounded-2xl shadow-xl mb-[20px] items-center justify-items-center p-[30px] w-10/12">
           <h2 className="font-bold text-2xl text-center m-[10px]">
             Join the Movement
           </h2>
@@ -37,10 +37,10 @@ function Section1() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-items-center items-center-safe">
+      <div className="flex flex-col justify-center items-center">
         <div className="cardHolder1 w-10/12 flex justify-between my-[50px] p-[20px] gap-[20px]">
         {/* Card  */}
-          <div className="card w-4/12 rounded-xl bg-blue-400 flex flex-col items-center-safe py-[20px]">
+          <div className="card w-4/12 rounded-xl bg-blue-400 flex flex-col items-center py-[20px]">
             <div className="spin1 w-[70px] h-[70px] rounded-lg shadow-md m-[20px]"></div>
             <h3 className="m-[10px] font-semibold text-[20px] text-center">
               Inner Well-being
@@ -51,7 +51,7 @@ function Section1() {
             </p>
           </div>
 
-          <div className="card w-4/12 rounded-xl bg-red-400 flex flex-col items-center-safe py-[20px]">
+          <div className="card w-4/12 rounded-xl bg-red-400 flex flex-col items-center py-[20px]">
             <div className="spin1 w-[70px] h-[70px] rounded-lg shadow-md m-[20px]"></div>
             <h3 className="m-[10px] font-semibold text-[20px] text-center">
               Welcoming Community
@@ -61,7 +61,7 @@ function Section1() {
             </p>
           </div>
 
-          <div className="card w-4/12 rounded-xl bg-purple-400 flex flex-col items-center-safe py-[20px]">
+          <div className="card w-4/12 rounded-xl bg-purple-400 flex flex-col items-center py-[20px]">
             <div className="spin1 w-[70px] h-[70px] rounded-lg shadow-md m-[20px]"></div>
             <h3 className="m-[10px] font-semibold text-[20px] text-center">
               Global Citizens

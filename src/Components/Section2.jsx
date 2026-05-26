@@ -3,8 +3,8 @@ import React from "react";
 function Section2() {
   return (
     <>
-      <div className="flex flex-col justify-items-center items-center-safe">
-        <div className="w-3/4 flex flex-col justify-items-center items-center-safe">
+      <div className="flex flex-col justify-center items-center">
+        <div className="w-3/4 flex flex-col justify-center items-center">
           <h1 className="font-bold text-4xl m-[15px]">Ancient Wisdom</h1>
           <p className="text-center text-[18px]">
             Connecting mordern children to timeless African knowledge,

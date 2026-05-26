@@ -4,9 +4,9 @@ import bookImg from "../assets/winds-of-napata-img.jpg";
 function Section3() {
   return (
     <>
-      <section className="section3 flex flex-col items-center-safe justify-between">
+      <section className="section3 flex flex-col items-center justify-between">
         <h2 className="text-[40px] font-bold text-[#2E251F]">Featured Story</h2>
-        <div className="section3-container w-screen flex justify-center gap-[50px] items-center-safe align-middle">
+        <div className="section3-container mt-5 w-screen flex justify-center gap-[50px] items-center align-middle">
           <div className="imgContainer w-4/12 h-4/12 border-4 border-[#FFFFFF] shadow-gray-500 shadow-xl rounded-[15px]">
             <img
               src={bookImg}
